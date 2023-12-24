@@ -18,9 +18,12 @@
 <!-- Navbar -->
 <AppShell>
 	<svelte:fragment slot="header">
-		<Navbar />
+		<div class="fixed top-0 w-full z-10">
+			<Navbar/>
+		</div>
+	
 	</svelte:fragment>	
-	<div class="md:mx-12 mx-4">
+	<div class="md:mx-12 mx-4 pt-12">
 		<slot />
 	</div>
 	<svelte:fragment slot="pageFooter">
