@@ -5,8 +5,9 @@
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
 	import 'highlight.js/styles/github-dark.css';
-	import { storeHighlightJs } from '@skeletonlabs/skeleton';
+	import { AppShell, storeHighlightJs } from '@skeletonlabs/skeleton';
 	import c from 'highlight.js/lib/languages/c'; // c syntax highlighting
+  import Footer from '$lib/components/footer.svelte';
 
 
 	hljs.registerLanguage('c', c);
@@ -15,8 +16,15 @@
 </script>
 
 <!-- Navbar -->
-<Navbar />
-<div class="md:mx-12 mx-4">
-	<slot />
-</div>
-
+<AppShell>
+	<svelte:fragment slot="header">
+		<Navbar />
+	</svelte:fragment>	
+	<div class="md:mx-12 mx-4">
+		<slot />
+	</div>
+	<svelte:fragment slot="pageFooter">
+	<Footer />
+	</svelte:fragment>
+			
+</AppShell>

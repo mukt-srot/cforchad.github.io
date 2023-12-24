@@ -1,4 +1,4 @@
-import { Solutions } from "./components/solutions";
+import { Solutions } from "./solutions";
 interface Problem {
     id: number;
     title: string;
