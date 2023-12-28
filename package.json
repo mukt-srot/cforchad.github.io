@@ -29,6 +29,7 @@
   },
   "type": "module",
   "dependencies": {
-    "highlight.js": "11.9.0"
+    "highlight.js": "11.9.0",
+    "posthog-js": "^1.96.1"
   }
 }
