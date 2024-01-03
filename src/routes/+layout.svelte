@@ -1,13 +1,13 @@
 <script lang="ts">
 	import '../app.postcss';
-	import Navbar from '$lib/components/navbar.svelte';
+	import Navbar from '$lib/layout-components/navbar.svelte';
 	
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
 	import 'highlight.js/styles/github-dark.css';
 	import { AppShell, storeHighlightJs } from '@skeletonlabs/skeleton';
 	import c from 'highlight.js/lib/languages/c'; // c syntax highlighting
-  import Footer from '$lib/components/footer.svelte';
+  	import Footer from '$lib/layout-components/footer.svelte';
 
 
 	hljs.registerLanguage('c', c);

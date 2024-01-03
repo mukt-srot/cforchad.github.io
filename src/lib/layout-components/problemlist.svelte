@@ -47,7 +47,7 @@
             <svelte:fragment slot="summary">
             <div class="flex row justfy-between">
                 <div class="mr-auto">{problem.title}</div>
-                <a href={problem.source.url} class="anchor bg-primary-400 bg-opacity-25 rounded-lg px-1">{problem.source.name} </a>  
+                <a href={problem.source.url} class="anchor bg-primary-400 bg-opacity-25 max-md:h-1/2 rounded-lg px-1">{problem.source.name} </a>  
             </div>    
             </svelte:fragment>
             <svelte:fragment slot="content">

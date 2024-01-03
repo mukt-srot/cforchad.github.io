@@ -1,6 +1,6 @@
 <script>
-  import Headertext from "$lib/components/headertext.svelte";
-  import Problemlist from "$lib/components/problemlist.svelte";
+  import Headertext from "$lib/layout-components/headertext.svelte";
+  import Problemlist from "$lib/layout-components/problemlist.svelte";
 </script>
 
 <Headertext />

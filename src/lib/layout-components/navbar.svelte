@@ -1,6 +1,7 @@
 <script lang="ts">
     import { AppBar } from '@skeletonlabs/skeleton';
-
+	
+	// Define the styles for different parts of the navbar
     let contentSpace = "flex flex-row md:space-x-12";
 	let menudecor = "btn bg-secondary-500  bg-opacity-10 hover:bg-secondary-600 hover:bg-opacity-40 py-1 px-2 max-sm:text-xs mx-1";
 	let logodecor = "btn btn-sm vatiant-filled max-sm:text-sm text-lg font-bold md:ml-6";

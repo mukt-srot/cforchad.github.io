@@ -4,8 +4,9 @@
   let linkStyle = "underline text-tertiary-500";
 </script>
 
-<footer class="mt-8 mb-1 bg-surface-800">
-  <div class="text-center pt-3 pb-1 flex flex-col items-center justify-center">
+<footer class="mt-8 bg-surface-800 mb-1 ">
+  <!--Footer components-->
+  <div class="text-center pt-3 pb-1 flex flex-col items-center justify-center z-20 relative">
     <div>
       <a href="https://github.com/mukt-srot/cforchad.github.io/blob/main/LICENSE.md" class={linkStyle}>MIT License</a>
       &nbsp; | &nbsp;
