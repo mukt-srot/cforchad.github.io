@@ -14,7 +14,7 @@
 	</svelte:fragment>
 	<svelte:fragment slot="default">
 		<div class={contentSpace}>
-			<a href="#practice" class={menudecor}>Practice</a>
+			<a href="/#practice" class={menudecor}>Practice</a>
 			<a href="/blog" class={menudecor}>Blog</a>
 			<a href="/about" class={menudecor}>About</a>
 		</div>	
