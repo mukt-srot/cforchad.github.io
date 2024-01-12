@@ -229,4 +229,23 @@ export const Problems: Problem[] = [
         },
         learn: 'https://www.sanfoundry.com/c-program-sum-all-digits-integer/#:~:text=Sum%20of%20digits%20in%20a,number%20%E2%80%9C14892%E2%80%9D%20is%2024.',
     },
+    {
+        id: 12,
+        title: 'Check if a number is prime or not',
+        description: {
+            text: 'A program that will take a number as input and output whether it is prime or not.',
+            input: '29',
+            output: 'prime'
+        },
+        source: {
+            name: 'cforchad',
+            url: '/'
+        },
+        tags: `loops, arithmetics`,
+        difficulty: 'easy',
+        solution: {
+            code: Solutions[11].code
+        },
+        learn: 'https://www.geeksforgeeks.org/c-program-to-check-whether-a-number-is-prime-or-not/',
+    },
 ]

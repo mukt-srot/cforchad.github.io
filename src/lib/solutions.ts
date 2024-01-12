@@ -181,7 +181,6 @@ int main(){
         code: `#include <stdio.h>
         
 int main(){
-    //A program that will take 5 digit number as input and output it\'s sum of digits.
     int n;
     printf("enter a 5 digit number");
     scanf("%d", &n);
@@ -196,5 +195,30 @@ int main(){
 
 }        
         `
+    },
+    {
+        id: 11,
+        code: `#include <stdio.h>
+        
+int main(){
+    int n;
+    printf("enter a number");
+    scanf("%d", &n);
+    int flag = 0;
+    for(int i = 2; i < n; i++){
+        if(n % i == 0){
+            flag = 1;
+            break;
+        }
     }
+    if(flag == 0){
+        printf("prime");
+    } else {
+        printf("not prime");
+    }
+    return 0;
+
+}        
+        `
+    },
 ]
