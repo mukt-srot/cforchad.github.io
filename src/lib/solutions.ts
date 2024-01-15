@@ -197,7 +197,7 @@ int main(){
         `
     },
     {
-        id: 11,
+        id: 12,
         code: `#include <stdio.h>
         
 int main(){
@@ -219,6 +219,81 @@ int main(){
     return 0;
 
 }        
+        `
+    },
+    {
+        id: 13,
+        code: `#include <stdio.h>
+float kelvin(float);
+float fahrenheit(float);
+
+int main() {
+    int option;
+    float temperature;
+    puts("Enter 1 to convert Celcius to Kelvin and 2 to convert Celcius to Farenheit");
+    scanf("%d", &option);
+    puts("enter temperature: ");
+    scanf("%f", &temperature);
+
+    switch (option) {
+        case 1:
+            kelvin(temperature);
+            break;
+        case 2:
+            fahrenheit(temperature);
+            break;
+        default:
+            break;
+    }
+
+}
+
+float kelvin(float temperature){
+    temperature = temperature + 273.15;
+    printf("temperature in Kelvin: %.2f", temperature);
+}
+
+float fahrenheit(float temperature){
+    temperature = (temperature) * 9 /5 + 32;
+    printf("temperature in Fahrenheit: %.2f", temperature);
+}        
+`
+    },
+    {
+        id: 12,
+        code: `#include <stdio.h>
+#define ANSI_COLOR_RED     "\x1b[31m"
+#define ANSI_COLOR_GREEN   "\x1b[32m"
+#define ANSI_COLOR_YELLOW  "\x1b[33m"
+#define ANSI_COLOR_BLUE    "\x1b[34m"
+#define ANSI_COLOR_RESET   "\x1b[0m"
+
+int main() {
+    int color;
+    char string[20];
+
+    puts("enter a string");
+    scanf("%s", string);
+    puts("enter color (1 for red, 2 for green, 3 for yellow, 4 for blue): ");
+    scanf("%d", &color);
+    switch (color) {
+        case 1:
+            printf(ANSI_COLOR_RED "%s" ANSI_COLOR_RESET, string);
+            break;
+        case 2:
+            printf(ANSI_COLOR_GREEN "%s" ANSI_COLOR_RESET, string);
+            break;
+        case 3:
+            printf(ANSI_COLOR_YELLOW "%s" ANSI_COLOR_RESET, string);
+            break;
+        case 4:
+            printf(ANSI_COLOR_BLUE "%s" ANSI_COLOR_RESET, string);
+            break;
+        default:
+            puts("enter a valid option.");
+            break;
+    }
+}              
         `
     },
 ]

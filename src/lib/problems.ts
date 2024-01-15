@@ -248,4 +248,45 @@ export const Problems: Problem[] = [
         },
         learn: 'https://www.geeksforgeeks.org/c-program-to-check-whether-a-number-is-prime-or-not/',
     },
+    {
+        id: 13,
+        title: 'Temperature Conversion',
+        description: {
+            text: 'A program with user defined functions that will convert Celcius to Kelvin or Farenheit according to user input. Use switch case is preferred.',
+            input: `Enter 1 to convert Celcius to Kelvin and 2 to convert Celcius to Farenheit
+1
+enter temperature in celcius: 100`,
+            output: 'temperature in Kelvin: 373.15'
+        },
+        source: {
+            name: 'cforchad',
+            url: '/'
+        },
+        tags: `functions, switch case`,
+        difficulty: 'easy',
+        solution: {
+            code: Solutions[12].code
+        },
+        learn: 'https://www.prepbytes.com/blog/c-programming/c-program-to-convert-celsius-to-fahrenheit/#:~:text=Algorithm%20for%20C%20Program%20to,Print%20the%20temperature%20in%20Fahrenheit.',
+    },
+    {
+        id: 14,
+        title: 'Print Custom Colored Text',
+        description: {
+            text: 'A program that will print a string with custom color using ANSI color escape codes. (e.g. \\x1b[31m will print the text in red color)',
+            input: `enter a string: Hello World
+enter color (1 for red, 2 for green, 3 for yellow, 4 for blue): 1`,
+            output: 'Hello World in red color(We can\t show the exact color here cause we are using a syntax highlighter that doesn\t support custom colors)'
+        },
+        source: {
+            name: 'cforchad',
+            url: '/'
+        },
+        tags: `graphics, strings`,
+        difficulty: 'easy',
+        solution: {
+            code: Solutions[13].code
+        },
+        learn: 'https://www.theurbanpenguin.com/4184-2/',
+    },
 ]

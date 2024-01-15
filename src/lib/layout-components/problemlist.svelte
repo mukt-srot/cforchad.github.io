@@ -40,7 +40,7 @@
 <div id="practice">
 	{#each displayedProblems as problem, index(problem.id)}
     <Accordion>
-        <AccordionItem close class="hover:bg-tertiary-600 hover:bg-opacity-20">
+        <AccordionItem close class="hover:bg-tertiary-600 hover:backdrop-blur-xl hover:bg-opacity-20">
             <svelte:fragment slot="lead">
                 <h1 class="text-lg font-bold">{problem.id}</h1>
             </svelte:fragment>
