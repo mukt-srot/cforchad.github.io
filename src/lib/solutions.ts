@@ -260,7 +260,7 @@ float fahrenheit(float temperature){
 `
     },
     {
-        id: 12,
+        id: 14,
         code: `#include <stdio.h>
 #define ANSI_COLOR_RED     "\x1b[31m"
 #define ANSI_COLOR_GREEN   "\x1b[32m"
@@ -294,6 +294,25 @@ int main() {
             break;
     }
 }              
+        `
+    },
+    {
+        id: 15,
+        code: `#include <stdio.h>
+        
+int main() {
+    char str[40];
+    puts("enter a string: ");
+    scanf("%s", str);
+
+    for (int i = 0;str[i] != '\0' ; ++i) {
+        if(str[i] >= 'a' && str[i] <= 'z'){
+            str[i] -= 32;
+        }
+    }
+    printf("the upper case string is: %s  \n", str);
+    return 0;
+}        
         `
     },
 ]

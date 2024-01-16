@@ -289,4 +289,23 @@ enter color (1 for red, 2 for green, 3 for yellow, 4 for blue): 1`,
         },
         learn: 'https://www.theurbanpenguin.com/4184-2/',
     },
+    {
+        id: 15,
+        title: 'Convert lowercase string to uppercase',
+        description: {
+            text: 'A program that will take a string as input and convert it to uppercase.',
+            input: `enter a string: lolXD`,
+            output: 'LOLXD'
+        },
+        source: {
+            name: 'cforchad',
+            url: '/'
+        },
+        tags: `graphics, strings`,
+        difficulty: 'easy',
+        solution: {
+            code: Solutions[14].code
+        },
+        learn: 'https://codeforwin.org/c-programming/c-program-convert-lower-case-string-to-upper',
+    },
 ]
