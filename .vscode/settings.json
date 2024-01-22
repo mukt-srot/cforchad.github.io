@@ -116,5 +116,19 @@
 		"transition",
 		"width",
 		"zIndex"
-	]
+	],
+	"spellright.language": [
+		"en"
+	],
+	"spellright.documentTypes": [
+		"markdown",
+		"latex",
+		"plaintext",
+		"svelte"
+	],
+	"spellright.parserByClass": {
+		"svelte": {
+			"parser": "plain"
+		}
+	}
 }

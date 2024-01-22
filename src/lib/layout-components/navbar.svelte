@@ -19,5 +19,5 @@
 			<a href="/about" class={menudecor}>About</a>
 		</div>	
 	</svelte:fragment>
-	<svelte:fragment slot="trail"><a href="/" type="button" class={btndecor}>Github</a></svelte:fragment>
+	<svelte:fragment slot="trail"><a href="https://github.com/mukt-srot/cforchad.github.io" type="button" class={btndecor}>Github</a></svelte:fragment>
 </AppBar>
