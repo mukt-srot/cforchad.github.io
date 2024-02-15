@@ -308,4 +308,23 @@ enter color (1 for red, 2 for green, 3 for yellow, 4 for blue): 1`,
         },
         learn: 'https://codeforwin.org/c-programming/c-program-convert-lower-case-string-to-upper',
     },
+    {
+        id: 16,
+        title: 'Print all the prime number between 1 to a given number',
+        description: {
+            text: 'A program that will take a number as input and print all the prime numbers between 1 and that number.',
+            input: `97`,
+            output: '2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97'
+        },
+        source: {
+            name: 'K&R',
+            url: '/'
+        },
+        tags: `loops, math`,
+        difficulty: 'easy',
+        solution: {
+            code: Solutions[15].code
+        },
+        learn: 'https://www.cquestions.com/2011/12/c-program-for-prime-numbers-between-1_11.html',
+    },
 ]
