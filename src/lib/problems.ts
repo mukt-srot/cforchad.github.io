@@ -327,4 +327,23 @@ enter color (1 for red, 2 for green, 3 for yellow, 4 for blue): 1`,
         },
         learn: 'https://www.cquestions.com/2011/12/c-program-for-prime-numbers-between-1_11.html',
     },
+    {
+        id: 17,
+        title: 'Length of lastword',
+        description: {
+            text: `Given a string s consisting of words and spaces, return the length of the last word in the string.`,
+            input: `luffy is still joyboy`,
+            output: '6'
+        },
+        source: {
+            name: 'leetcode',
+            url: 'https://leetcode.com/problems/length-of-last-word/description/'
+        },
+        tags: `loops, math`,
+        difficulty: 'easy',
+        solution: {
+            code: Solutions[16].code
+        },
+        learn: 'https://www.geeksforgeeks.org/length-of-last-word-in-a-string/',
+    },
 ]
